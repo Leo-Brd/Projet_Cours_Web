@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <script src="Javascript/modal.js"></script>
-    <script src="Javascript/close_modal.js"></script>
     <script src="Javascript/dark_theme.js"></script>
     <title>Projet_Web Leo Antoine Aziz</title>
 
@@ -30,20 +29,36 @@
 
     <main>
 
+        <div id="myModal_1" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+
+        <div id="myModal_2" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img02">
+        </div>
+
+        <div id="myModal_3" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img03">
+        </div>
+
         <article>
             <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s">
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s" onclick="afficherModal_1()">
             <figcaption>Html</figcaption>
         </article>
         <article>
-            <img src="https://www.softfluent.fr/wp-content/uploads/2019/10/css-3.png">
+            <img src="https://www.softfluent.fr/wp-content/uploads/2019/10/css-3.png" onclick="afficherModal_2()">
             <figcaption>Css</figcaption>
         </article>
         <article>
             <img
-                src="https://blog.lesjeudis.com/wp-content/uploads/2020/12/Screenshot-2020-12-02-at-15.31.17-1.png.webp">
+                src="https://blog.lesjeudis.com/wp-content/uploads/2020/12/Screenshot-2020-12-02-at-15.31.17-1.png.webp" onclick="afficherModal_3()">
             <figcaption>Javascript</figcaption>
         </article>
+
 
     </main>
 
