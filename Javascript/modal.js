@@ -1,13 +1,15 @@
-var modal_1 = document.getElementById("myModal_1");
+
 
 // Fonction pour afficher le modal
 function afficherModal_1() {
+    var modal_1 = document.getElementById("myModal_1");
     var img_1 = document.getElementById("img01");
     img_1.src = this.src; 
     modal_1.style.display = "block"; 
 }
 
 function close_1(){
+    var modal_1 = document.getElementById("myModal_1");
     modal_1.style.display = "none";
 }
 
